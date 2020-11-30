@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <!-- CSS Sendiri -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materialize Project</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar-fixed ">
+    <nav class="indigo accent-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Simple Problem</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#client">Clients</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#event">Events</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- sidenav -->
+  <ul class="sidenav transparent z-depth-0 hide-on-large-only" id="slide-out">
+    <li><a href="#about" class="white-text">About Us</a></li>
+    <li><a href="#client" class="white-text">Clients</a></li>
+    <li><a href="#service" class="white-text">Services</a></li>
+    <li><a href="#event" class="white-text">Events</a></li>
+    <li><a href="#contact" class="white-text">Contact Us</a></li>
+    <li><a class="sidenav-close" href="#!"><i class="material-icons white-text">cancel</i></a></li>
+  </ul>
+
+
+  <!-- Slider -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/slider/3.png">
+        <div class="caption left-align blue-text text-indigo accent-2">
+          <h3>Come Join With Us!</h3>
+          <h5 class="light red-text text-red darken-4">We Are Faster</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider/6.jpg">
+        <div class="caption center-align blue-text text-indigo accent-2">
+          <h3>Come Join With Us!</h3>
+          <h5 class="light red-text text-red darken-4">We Are Impresive</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider/5.jpg">
+        <div class="caption right-align blue-text text-indigo accent-2">
+          <h3>Come Join With Us!</h3>
+          <h5 class="light red-text text-red darken-3">We Are Gratify</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- About Us -->
+  <section id="about" class="about scrollspy">
+    <div class="container">
+      <div class="row">
+        <h3 class="center light">About Us</h3>
+        <div class="col m6 light">
+          <h5>We Are Professionals</h5>
+          <p class="profilecomp">We are a technology oriented company with national and international certification. We provide development applications
+            , crafting of applications, training and consulting.
+          </p>
+          <a class="waves-effect waves-light indigo accent-2  btn modal-trigger right" href="#modal1">See All Benefit</a>
+        </div>
+        <div class="col m6 dark">
+              <img src="img/slider/7.png" class="imagecom">
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal1" class="modal scrollspy">
+    <div class="modal-content">
+      <h3>Professionality in :</h3>
+      <p>WEB DEVELOPMENT</p>
+      <div class="progress">
+        <div class="determinate blue" style="width: 95%"></div>
+      </div>
+      <p>MOBILE APP DEVELOPMENT</p>
+      <div class="progress">
+        <div class="determinate blue" style="width: 85%"></div>
+      </div>
+      <p>SEO OPTIMIZER</p>
+      <div class="progress">
+        <div class="determinate blue" style="width: 90%"></div>
+      </div>
+      <p>WEB DESIGN</p>
+      <div class="progress">
+        <div class="determinate blue" style="width: 98%"></div>
+      </div>
+      <p>DATA SCIENCE</p>
+      <div class="progress">
+        <div class="determinate blue" style="width: 80%"></div>
+      </div>
+      <p>BUSSINES CONSULATION</p>
+      <div class="progress">
+        <div class="determinate blue" style="width: 93%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clients -->
+  <div class="container clients">
+    <h3 class="center light">Our Clients</h3>
+    <div class="row">
+      <div class="col m4 s12 center">
+        <img src="img/clients/tokopedia.png">
+      </div>
+      <div class="col m4 s12 center">
+        <img src="img/clients/gojek.png">
+      </div>
+      <div class="col m4 s12 center">
+        <img src="img/clients/traveloka.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- Service -->
+  <div class="parallax-container" id="client">
+    <div class="parallax"><img src="img/clients/25.png"></div>
+    <section id="service" class="service scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="center light white-text">Our Service</h3>
+          <div class="col s12 m4 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/service/webdev.png">
+              </div>
+              <div class="card-content indigo accent-2">
+                <span class="card-title activator white-text" style="font-size: 20px;">Web Development<i
+                    class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Web Development <br><i
+                    class="material-icons right">close</i></span><hr>
+                <p>Responsive web</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/service/webdesign2.png" class="webdesignimage">
+              </div>
+              <div class="card-content indigo accent-2">
+                <span class="card-title activator white-text" style="font-size: 20px;">Web Design<i
+                    class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Web Design <br><i
+                    class="material-icons right">close</i></span><hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, at.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/service/mobileapp1.png" class="mobileimage">
+              </div>
+              <div class="card-content indigo accent-2">
+                <span class="card-title activator white-text" style="font-size: 20px;">App Development<i
+                    class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">App Development <br><i
+                    class="material-icons right">close</i></span><hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, at.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/service/seo.png" class="seoimage">
+              </div>
+              <div class="card-content indigo accent-2">
+                <span class="card-title activator white-text" style="font-size: 20px;">Seo Optimazer<i
+                    class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Seo Optimazer <br><i
+                    class="material-icons right">close</i></span><hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, at.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/service/data.png" class="dataimage">
+              </div>
+              <div class="card-content indigo accent-2">
+                <span class="card-title activator white-text" style="font-size: 20px;">Data Science<i
+                    class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Data Science <br><i
+                    class="material-icons right">close</i></span><hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, at.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/service/bisnis.png">
+              </div>
+              <div class="card-content indigo accent-2">
+                <span class="card-title activator white-text" style="font-size: 20px;">Bussines Consulation<i
+                    class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Bussines Consulation <br><i
+                    class="material-icons right">close</i></span><hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, at.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- event -->
+  <section id="event" class="scrollspy">
+      <div class="container event">
+        <h3 class="center light"> Our Events</h3>
+        <div class="row">
+          <div class="col m3 s12 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/events/1.png" class="materialboxed" width="650">
+                <span class="card-title text-card ">Discussion</span>
+              </div>
+            </div>
+          </div>
+          <div class="col m3 s12 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/events/2.png" class="materialboxed" width="650">
+                <span class="card-title text-card">Marketing</span>
+              </div>
+            </div>
+          </div>
+          <div class="col m3 s12 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/events/3.png" class="materialboxed" width="650">
+                <span class="card-title text-card">Selling</span>
+              </div>
+            </div>
+          </div>
+          <div class="col m3 s12 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/events/4.png" class="materialboxed" width="650">
+                <span class="card-title text-card ">Training</span>
+              </div>
+            </div>
+          </div>
+          <div class="col m3 s12 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/events/5.png" class="materialboxed" width="650">
+                <span class="card-title text-card ">Meeting</span>
+              </div>
+            </div>
+          </div>
+          <div class="col m3 s12 center">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/events/6.png" class="materialboxed" width="650">
+                <span class="card-title text-card ">Seminar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact Us -->
+
+  <Section id="contact" class="contact scrollspy">
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/clients/25.png"></div>
+    <div class="container">
+      <h3 class="white-text center">Contact Us</h3>
+      <div class="row">
+        <div class="col s12 m4 center">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/service/map.png">
+            </div>
+          </div>
+          <ul class="collection">
+            <li class="collection-item grey-text text-darken-3 center">
+              <h3 class="toko">Simple Problem</h3>
+            </li>
+            <li class="collection-item grey-text text-darken-3 center">Jl.Cemoro, Sirahnogo, Dolopo, Madiun</li>
+            <li class="collection-item grey-text text-darken-3 center">085735237256</li>
+            <li class="collection-item grey-text text-darken-3 center">simpleproblem@gmail.com</li>
+            <li class="collection-item grey-text text-darken-3 center">East Java, Indonesia</li>
+          </ul>
+        </div>
+        <div class="col m7 s12">
+          <div class="card">
+            <div class="card-content">
+            <form>
+              <div class="card-panel indigo accent-2">
+                <h5 class="white-text center">Please fill out this from</h5>
+              </div>
+              <div class="input-field">
+                <input type="text" name="name" id="name" required class="validate">
+                <label for="name" class="grey-text text-darken-3">Name</label>
+              </div>
+              <div class="input-field">
+                <input type="email" name="email" id="email" class="validate">
+                <label for="email" class="grey-text text-darken-3">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="text" name="phone" id="phone" required class="validate">
+                <label for="phone" class="grey-text text-darken-3">Phone Number</label>
+              </div>
+              <div>
+                <button type="submit" class="btn blue indigo accent-2">Send</button>
+              </div>
+              <br>
+            </form>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </Section>
+  <footer>
+    <div class="footer-copyright indigo accent-2 ">
+      <div class="container white-text center copyrigt">
+        Simple Problem. &copy; 2019
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

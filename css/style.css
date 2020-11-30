@@ -1,0 +1,84 @@
+.slider h3,
+.slider h5,
+.clients h3,
+.event h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.sidenav {
+    padding: 55px 0px 0px 0px;
+}
+
+.brand-logo,
+.copyrigt {
+    font-family: 'Pacifico', cursive;
+}
+
+.toko {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    width: 200px;
+    opacity: 0.5 !important;
+}
+
+.navbar-fixed {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.clients img {
+    max-width: 200px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.mobileimage,
+.webdesignimage {
+    height: 190px;
+}
+
+.seoimage,
+.dataimage {
+    height: 210px;
+}
+
+.text-card {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.copyrigt {
+    padding: 24px;
+    font-size: 20px;
+}
+
+.imagecom{
+    margin: 0;
+    padding: 0;
+    height: 22rem;
+}
+
+.profilecomp{
+    font-size: 150%;
+}
+
+.materialboxed{
+    opacity: 0.6;
+}
